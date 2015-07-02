@@ -1,0 +1,4 @@
+# Install Numpy support since pip is sort of dumb.
+bpwatch start numpy_install 
+  /app/.heroku/python/bin/pip install numpy==1.9.2 | cleanup | indent
+bpwatch stop numpy_install

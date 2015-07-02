@@ -177,12 +177,17 @@ source $BIN_DIR/steps/cryptography
 # GDAL support.
 source $BIN_DIR/steps/gdal
 
+# Numpy support.
+source $BIN_DIR/steps/numpy
+
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
 # Django collectstatic support.
 sub-env $BIN_DIR/steps/collectstatic
 
+# OpenCV support.
+source $BIND_DIR/steps/opencv
 
 # ### Finalize
 #

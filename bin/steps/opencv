@@ -1,0 +1,3 @@
+# Pull down a pre-compiled binary.
+bpwatch start opencv_install 
+bpwatch stop opencv_install
